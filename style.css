@@ -32,5 +32,9 @@ body {
     .galeria {
         grid-template-columns: repeat(3, 1fr);
     }
-
+     .galeria img {
+        max-width: 300px;   
+        max-height: 300px;  
+        justify-self: center;
+    }
 }
