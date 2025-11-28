@@ -27,3 +27,10 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+@media (min-width: 840px) {
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
